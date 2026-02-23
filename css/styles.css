@@ -1,0 +1,25 @@
+    .container {
+      width: 200px;
+      height: 200px;
+      border: 2px dashed #999;
+      margin: 20px;
+      padding: 10px;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .item {
+      width: 80px;
+      height: 80px;
+      background: steelblue;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: grab;
+    }
+
+    .over {
+      border-color: green;
+      background: #f0fff0;
+    }
