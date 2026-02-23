@@ -19,6 +19,10 @@
       cursor: grab;
     }
 
+    .dragging {
+      background: pink;
+    }
+
     .over {
       border-color: green;
       background: #f0fff0;
